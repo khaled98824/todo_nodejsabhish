@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "12.11.1",
+    "npm": "6.14.13"
+  },
   "scripts": {
     "start": "node piblic/app.js",
     "dev": "nodemon src/app.ts",
